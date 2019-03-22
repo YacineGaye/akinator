@@ -1,0 +1,28 @@
+<div class="edition" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Colombus_Isle.JPG/1200px-Colombus_Isle.JPG');">
+
+
+  <div class= "container">
+
+<h1>Voici les questions</h1>
+<p>Vous allez devoir repondre a ces questions le plus sincerement possible</p>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+		 <h3>Ma question ? </h3>
+		<div class="ask">
+			<div class="btn btn-warning btn-lg">Oui</div>
+			<div class="btn btn-primary btn-lg">Non</div>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<img src="https://fr.akinator.com/bundles/elokencesite/images/akitudes_670x1096/defi.png?v95" alt="" , class="genie">
+	</div>
+  </div>
+</div>
+
+
+<%= link_to( "Editer le jeu", edit_game_path, method: :get, class: "btn btn-primary") %>
+
+<%= link_to( "Mise a jour de mon jeu", game_path, method: :patch, class: "btn btn-warning" ) %>
+
+<%= link_to( "Montre moi la reponse", game_path, method: :get, class: "btn btn-danger") %>
