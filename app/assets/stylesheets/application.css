@@ -17,20 +17,54 @@
 h1 {
 	text-align: center;
 	font-weight: bold;
-	color: blue;
+	color: white;
+	text-decoration: blink;
+	text-transform: uppercase;
 }
 
 h2 {
-	color: pink;
+	color: blue;
 	font-weight: bold;
+	font-style: italic;
 }
 
+.container {
+	text-align: center;
+}
+
+.article {
+	colot: white;
+}
+
+.smiley {
+	align-items: center;
+}
+
+.rep {
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
 .wrapper {
 	background-size: cover;
 	background-position: center;
 	opacity: 50%;
-	display: flex;
 }
+
+.wall {
+	background-size: cover;
+	background-position: center;
+	opacity: 50%;
+	height: 100vh;
+}	
+
+.pop {
+	background-size: cover;
+	background-position: cover;
+	opacity: 50%;
+	height: 100vh;
+}
+
 
 .genie{
     align-items: right;
@@ -45,4 +79,9 @@ h2 {
 	backgroung-position: center;
 	opacity: 50%;
 	display: flex;
+}
+
+p {
+	font-family: Comic sans MS, Arial, Verdana,  sans-serif;
+	color: black;
 }
